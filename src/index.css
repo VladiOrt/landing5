@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "GreycliffCFRegular";
+  src: local("GreycliffCFRegular"),
+   url("./components/fonts/GreycliffCF-Regular.ttf") format("truetype");
+  font-weight: normal;
+  }
+
+
+
+  @font-face {
+    font-family: "FarnhamDisplayR";
+    src: local("FarnhamDisplayR"),
+     url("./components/fonts/FarnhamDisplayRegularOSF.otf") format("opentype");
+    font-weight: normal;
+    }
+  
+
+code {
+  font-family: GreycliffCFRegular,FarnhamDisplayR ,source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

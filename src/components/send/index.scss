@@ -1,0 +1,449 @@
+*{
+    font-family: GreycliffCFRegular;
+}
+.containerSend{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/send/fondo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .filtro{
+        position: absolute;
+        z-index: 1;
+        min-width: 100vw;
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #FFF 20%, transparent 70%, #0A0101 90%);
+    }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    min-width: 85vw;
+    img{
+        min-width: 30vw;
+    }
+}
+
+.titleHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    min-width: 60vw;
+    max-width: 60vw;
+    text-align: center;
+    color: #0A0101;
+    font-size: 6vw;
+}
+.subtitleHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    min-width: 85vw;
+    max-width: 85vw;
+    text-align: center;
+    color: #D18919;
+    font-size: 6vw;
+}
+.botonesContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    min-width: 85vw;
+    text-align: center;
+    flex-direction: column;
+    button{
+        min-width: 50vw;
+        min-height: 40px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 10px;
+        font-size: 5vw;
+        background-color: #212121;
+        color: #FFF;
+    }
+    
+}
+
+    .footer{
+        max-width: 85vw;
+        min-height: 12vh;
+        z-index: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            color:#FFF;
+        }
+        text{
+            min-width: 50vw;
+            display: flex;
+            color: #FFF;
+            font-size: 15px;
+            justify-content: center;
+            align-items: center;
+            label{
+                min-width: 15vw;
+                text-align: center;
+               color: #FFF;
+               font-size: 3vw;
+               text-transform: uppercase;
+                letter-spacing: 4px;                    
+            }
+            .division{
+                border-right: 1px solid #D18919;
+                min-width: 15vw;
+                padding-right: 15px;
+            }
+            .insta{
+                margin-left: 15px;
+            }
+        }
+        .direccion{
+            font-size: 3vw;
+            min-width: 10vw;
+            margin-left: 5px;
+        }
+        img{
+            max-width: 10px;
+        }
+        .visitaNuestra{
+            min-width: 85vw;
+            font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;   
+            align-items: center;
+            font-size: 4vw;
+            color: #FFF;         
+            img{margin-right: 5px;}
+            label{
+                margin-left: 4px;
+                font-size: 4vw;
+                text-transform: none;
+                color: #D18919;
+                
+            }
+
+        }
+    }
+}
+/*
+
+@media (max-width: 428px) and (min-height:926px) {
+    *{
+        font-family: GreycliffCFRegular;
+    }
+    .containerSend{
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/send/fondo.svg');
+        background-repeat: no-repeat;
+        background-size: 5vw;
+        background-position: center;
+        background-position-y: 10vh;
+        .filtro{
+            position: absolute;
+            z-index: 1;
+            min-width: 100vw;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #FFF 20%, transparent 70%, #0A0101 90%);
+        }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 85vw;
+        img{
+            min-width: 60vw;
+        }
+    }
+    
+    .titleHeader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 60vw;
+        max-width: 60vw;
+        text-align: center;
+        color: #0A0101;
+        font-size: 35px;
+    }
+    .subtitleHeader{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 85vw;
+        max-width: 85vw;
+        text-align: center;
+        color: #D18919;
+        font-size: 30px;
+    }
+    .botonesContact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 85vw;
+        text-align: center;
+        flex-direction: column;
+        button{
+            min-width: 50vw;
+            min-height: 40px;
+            border-radius: 20px;
+            border: none;
+            margin-top: 10px;
+            font-size: 20px;
+            background-color: #212121;
+            color: #FFF;
+        }
+        
+    }
+    
+        .footer{
+            max-width: 85vw;
+            min-height: 12vh;
+            z-index: 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                color:#FFF;
+            }
+            text{
+                min-width: 50vw;
+                display: flex;
+                color: #FFF;
+                font-size: 15px;
+                justify-content: center;
+                align-items: center;
+                label{
+                    min-width: 15vw;
+                    text-align: center;
+                   color: #FFF;
+                   font-size: 15px;
+                   text-transform: uppercase;
+                    letter-spacing: 4px;                    
+                }
+                .division{
+                    border-right: 1px solid #D18919;
+                    min-width: 15vw;
+                    padding-right: 15px;
+                }
+                .insta{
+                    margin-left: 15px;
+                }
+            }
+            .direccion{
+                font-size: 15px;
+                min-width: 10vw;
+                margin-left: 5px;
+            }
+            img{
+                max-width: 10px;
+            }
+            .visitaNuestra{
+                min-width: 85vw;
+                font-size: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;   
+                align-items: center;
+                color: #FFF;         
+                img{margin-right: 5px;}
+                label{
+                    margin-left: 4px;
+                    font-size: 20px;
+                    text-transform: none;
+                    color: #D18919;
+                    
+                }
+    
+            }
+        }
+    }
+    
+}
+*/
+
+
+
+@media (min-width: 800px) and (min-height:617px) {
+    *{
+        font-family: GreycliffCFRegular;
+    }
+    .containerSend{
+        min-width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../img/send/fondoEscritorio.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .filtro{
+            position: absolute;
+            z-index: 1;
+            min-width: 100vw;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #FFF 10%, transparent 70%, #0A0101 99%);
+        }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 80vw;
+        img{
+            min-width: 25vw;
+        }
+    }
+    
+    .titleHeader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 30vw;
+        max-width: 30vw;
+        text-align: center;
+        color: #0A0101;
+        font-size: 2.8vw;
+        br{
+            display: none;
+        }
+    }
+    .subtitleHeader{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 85vw;
+        max-width: 85vw;
+        text-align: center;
+        color: #D18919;
+        font-size: 3vw;
+    }
+    .botonesContact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        min-width: 85vw;
+        min-height: 15vh;
+        text-align: center;
+        flex-direction: column;
+        button{
+            min-width: 30vw;
+            min-height: 5vh;
+            border-radius: 2vw;
+            border: none;
+            margin-top: 10px;
+            font-size:2vw;
+            background-color: #212121;
+            color: #FFF;
+        }
+        button:hover{            
+            color: #212121;
+            background-color: #FFF;
+        }
+        
+    }
+    
+        .footer{
+            max-width: 35vw;
+            min-height: 12vh;
+            z-index: 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            a{
+                text-decoration: none;
+                color:#FFF;
+            }
+            text{
+                min-width: 50vw;
+                display: flex;
+                color: #FFF;
+                font-size: 15px;
+                justify-content: center;
+                align-items: center;
+                label{
+                    min-width: 15vw;
+                    text-align: center;
+                   color: #FFF;
+                   font-size: 15px;
+                   text-transform: uppercase;
+                    letter-spacing: 4px;                    
+                }
+                .division{
+                    border-right: 1px solid #D18919;
+                    min-width: 15vw;
+                    display: flex;
+                    justify-content: flex-end;
+                    padding-right: 15px;
+                }
+                .insta{
+                    margin-left: 15px;
+                    display: flex;
+                    justify-content: flex-start;
+                }
+            }
+            .direccion{
+                font-size: 15px;
+                min-width: 10vw;
+                margin-left: 5px;
+            }
+            img{
+                max-width: 10px;
+            }
+            .visitaNuestra{
+                min-width: 85vw;
+                font-size: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;   
+                align-items: center;
+                color: #FFF;         
+                img{margin-right: 5px;}
+                label{
+                    margin-left: 4px;
+                    font-size: 20px;
+                    text-transform: none;
+                    color: #D18919;
+                    
+                }
+    
+            }
+        }
+    }
+    
+}
+
+
+
