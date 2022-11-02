@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/landing5/static/css/main.1afcc1ca.css",
-    "main.js": "/landing5/static/js/main.43eca07f.js",
+    "main.css": "/landing5/static/css/main.b1127738.css",
+    "main.js": "/landing5/static/js/main.6c92302b.js",
     "static/js/787.28525a86.chunk.js": "/landing5/static/js/787.28525a86.chunk.js",
     "static/media/fondo2.svg": "/landing5/static/media/fondo2.37b6aafd2f285873a06e.svg",
+    "static/media/fondoEscritorio.svg": "/landing5/static/media/fondoEscritorio.0e9c16f9ae184c59f703.svg",
     "static/media/fondo.svg": "/landing5/static/media/fondo.eba84d82a183646fb337.svg",
-    "static/media/fondoEscritorio.svg": "/landing5/static/media/fondoEscritorio.e6c939575b3234c1061c.svg",
     "static/media/fondoEscritorio.png": "/landing5/static/media/fondoEscritorio.8ad4b6371af91f5ac34c.png",
     "static/media/fondo2.png": "/landing5/static/media/fondo2.c37d0d525ee55933c83d.png",
     "static/media/GreycliffCF-Regular.ttf": "/landing5/static/media/GreycliffCF-Regular.2d53298323f2ca25b753.ttf",
@@ -21,12 +21,12 @@
     "static/media/posicion.svg": "/landing5/static/media/posicion.9674db6756249a30ea61e8ec81910935.svg",
     "static/media/fondoDeg.svg": "/landing5/static/media/fondoDeg.a18dac9406bc94b84c2a.svg",
     "static/media/FaceP.svg": "/landing5/static/media/FaceP.dfc532444d46d9785c9445d110bbc7b4.svg",
-    "main.1afcc1ca.css.map": "/landing5/static/css/main.1afcc1ca.css.map",
-    "main.43eca07f.js.map": "/landing5/static/js/main.43eca07f.js.map",
+    "main.b1127738.css.map": "/landing5/static/css/main.b1127738.css.map",
+    "main.6c92302b.js.map": "/landing5/static/js/main.6c92302b.js.map",
     "787.28525a86.chunk.js.map": "/landing5/static/js/787.28525a86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1afcc1ca.css",
-    "static/js/main.43eca07f.js"
+    "static/css/main.b1127738.css",
+    "static/js/main.6c92302b.js"
   ]
 }
