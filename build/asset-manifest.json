@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/landing5/static/css/main.b1127738.css",
+    "main.js": "/landing5/static/js/main.6c92302b.js",
+    "static/js/787.28525a86.chunk.js": "/landing5/static/js/787.28525a86.chunk.js",
+    "static/media/fondo2.svg": "/landing5/static/media/fondo2.37b6aafd2f285873a06e.svg",
+    "static/media/fondoEscritorio.svg": "/landing5/static/media/fondoEscritorio.0e9c16f9ae184c59f703.svg",
+    "static/media/fondo.svg": "/landing5/static/media/fondo.eba84d82a183646fb337.svg",
+    "static/media/fondoEscritorio.png": "/landing5/static/media/fondoEscritorio.8ad4b6371af91f5ac34c.png",
+    "static/media/fondo2.png": "/landing5/static/media/fondo2.c37d0d525ee55933c83d.png",
+    "static/media/GreycliffCF-Regular.ttf": "/landing5/static/media/GreycliffCF-Regular.2d53298323f2ca25b753.ttf",
+    "static/media/fondo.png": "/landing5/static/media/fondo.8be3ae07a75b9d49c508.png",
+    "static/media/FarnhamDisplayRegularOSF.otf": "/landing5/static/media/FarnhamDisplayRegularOSF.94ab730e606ae6f3de94.otf",
+    "static/media/logo.svg": "/landing5/static/media/logo.628497c8f0fb7c62b22477dc2794f951.svg",
+    "static/media/LogoP.svg": "/landing5/static/media/LogoP.031e5ba45f50dbb9e5c9434430e80d48.svg",
+    "static/media/RedP.svg": "/landing5/static/media/RedP.059dafb9b1c3d8f9a328d16ae639f711.svg",
+    "static/media/red.svg": "/landing5/static/media/red.06912b0f80878ca101930c41c7db1d48.svg",
+    "static/media/InstaP.svg": "/landing5/static/media/InstaP.8d897613a4e1a68ec4999565bbe599aa.svg",
+    "static/media/icono+.svg": "/landing5/static/media/icono+.7d7ed5e7ab5dedee5a0eab9dd8a30315.svg",
+    "index.html": "/landing5/index.html",
+    "static/media/posicion.svg": "/landing5/static/media/posicion.9674db6756249a30ea61e8ec81910935.svg",
+    "static/media/fondoDeg.svg": "/landing5/static/media/fondoDeg.a18dac9406bc94b84c2a.svg",
+    "static/media/FaceP.svg": "/landing5/static/media/FaceP.dfc532444d46d9785c9445d110bbc7b4.svg",
+    "main.b1127738.css.map": "/landing5/static/css/main.b1127738.css.map",
+    "main.6c92302b.js.map": "/landing5/static/js/main.6c92302b.js.map",
+    "787.28525a86.chunk.js.map": "/landing5/static/js/787.28525a86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1127738.css",
+    "static/js/main.6c92302b.js"
+  ]
+}

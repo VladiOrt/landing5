@@ -844,7 +844,7 @@
                                     min-height: 40px;
                                     max-width: 60vw;
                                     font-size: 12px;
-                                    min-height: 20vh;
+                                    min-height: 15vh;
                                     background-color: white;
                                     background-color: none;
                                     flex-direction: column;
@@ -1331,7 +1331,7 @@
                                     min-height: 40px;
                                     max-width: 60vw;
                                     font-size: 12px;
-                                    min-height: 20vh;
+                                    min-height: 15vh;
                                     background-color: white;
                                     background-color: none;
                                     flex-direction: column;
@@ -2791,7 +2791,7 @@
                                         min-height: 40px;
                                         max-width: 60vw;
                                         font-size: 18px;
-                                        min-height: 20vh;
+                                        min-height: 15vh;
                                         background-color: white;
                                         background-color: none;
                                         flex-direction: column;
@@ -3236,7 +3236,7 @@
                                         min-height: 40px;
                                         max-width: 60vw;
                                         font-size: 18px;
-                                        min-height: 20vh;
+                                        min-height: 15vh;
                                         background-color: white;
                                         background-color: none;
                                         flex-direction: column;
@@ -3688,7 +3688,7 @@
                                         min-height: 40px;
                                         max-width: 60vw;
                                         font-size: 18px;
-                                        min-height: 20vh;
+                                        min-height: 15vh;
                                         background-color: white;
                                         background-color: none;
                                         flex-direction: column;
@@ -4131,7 +4131,7 @@
                                         min-height: 40px;
                                         max-width: 60vw;
                                         font-size: 18px;
-                                        min-height: 20vh;
+                                        min-height: 15vh;
                                         background-color: white;
                                         background-color: none;
                                         flex-direction: column;
@@ -4310,10 +4310,10 @@
             min-height: 100vh;
             background-image: url('../img/fondoEscritorio.svg');
             background-position: center;
-            background-size: 55vw;
+            background-size: 110vw;
             background-repeat: no-repeat;
-            background-position-y: 5vh;
-            background-position-x: 22vw;
+            background-position-y: -50vh;
+            background-position-x: 0vw;
         }
       
         .filtroDosContainer{
@@ -4898,7 +4898,7 @@
                                         font-size: 22px;
                                         background-color: none;
                                         color: #D18919;
-                                        min-height: 20vh;
+                                        min-height: 15vh;
                                         display: flex;
                                         flex-direction: column;
                                         justify-content: center;
@@ -5066,10 +5066,10 @@
             min-height: 100vh;
             background-image: url('../img/fondoEscritorio.svg');
             background-position: center;
-            background-size: 55vw;
+            background-size: 110vw;
             background-repeat: no-repeat;
-            background-position-y: 5vh;
-            background-position-x: 22vw;
+            background-position-y: -50vh;
+            background-position-x: 0vw;
         }
       
         .filtroDosContainer{
@@ -5129,9 +5129,9 @@
                 z-index: 22;
                 display: none;
                 margin-left: 45vw;
-                margin-top: -15vh;
+                margin-top: -30vh;
                 min-width: 50vw;
-                min-height: 90vh;
+                min-height: 100vh;
                 position: absolute;
                 background: linear-gradient(to right, transparent 10%,  rgba(#000, 0.7) 40%);       
             }
@@ -5653,7 +5653,7 @@
                                         font-size: 22px;
                                         background-color: none;
                                         color: #D18919;
-                                        min-height: 20vh;
+                                        min-height: 15vh;
                                         display: flex;
                                         flex-direction: column;
                                         justify-content: center;
@@ -5837,10 +5837,10 @@
             min-height: 100vh;
             background-image: url('../img/fondoEscritorio.svg');
             background-position: center;
-            background-size: 55vw;
+            background-size: 100vw;
             background-repeat: no-repeat;
-            background-position-y: 5vh;
-            background-position-x: 22vw;
+            background-position-y: -50vh;
+            background-position-x: 0vw;
         }
       
         .filtroDosContainer{
@@ -6425,7 +6425,7 @@
                                         font-size: 22px;
                                         background-color: none;
                                         color: #D18919;
-                                        min-height: 20vh;
+                                        min-height: 15vh;
                                         display: flex;
                                         flex-direction: column;
                                         justify-content: center;

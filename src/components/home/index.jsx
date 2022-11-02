@@ -235,7 +235,7 @@ function Enviar (){
             
             <div className="logoContainer">
                 <img src={Logo}></img>
-                <text><label>¡Regístrate y obtén</label>  <br/> <label>esta  promo exclusiva</label> <br /> y comienza a cuidarte! </text>
+                <text><label>¡Regístrate y obtén 10%</label>  <br/> <label> en tratamientos </label> <br /> de medicina estética! </text>
             </div>
             <div className="contentContainer">
                 <img ref={botonMas} src={Icono} alt="Mostrar mas" onClick={()=> actionButton()}></img>
@@ -254,14 +254,14 @@ function Enviar (){
                             <div className="lineaDos" ref={lineaDos}></div>
                         </div>
                         <div className="tituloActivado" id="Hover" >
-                            <text><strong>¡30% OFF! </strong>     <br />Disfruta el lujo <br/><strong>de cuidarte </strong> </text>
+                            <text><strong> ¡Una experiencia  </strong>     <br /> Inigualable de Belleza <br/><strong>Lujo y Bienestar!</strong> </text>
                             <div className="textoMostrar" ref={altoEscritorio}>
                                 <ul ref={textoEscritorio} >
 
                                  
-                                    <li><div /><label>Tecnología  de última generación que </label><label className='dos'>potencia tus resultados</label>  </li>
-                                    <li><div /><label>Especialistas certificados  </label><label className='dos'></label></li>
-                                    <li><div /><label>Aparatología de alta gama:</label><label className='dos'> Venus Versa, Venus Glow, Ultraformer III...</label></li>
+                                    <li><div /><label>Medicina estética </label><label className='dos'>profesional que impulsa tu poder</label>  </li>
+                                    <li><div /><label>Profesionales médicos   </label><label className='dos'>altamente calificados</label></li>
+                                    <li><div /><label>Productos de calidad </label><label className='dos'> certificados y reconocidos</label></li>
                                     <li><div /><label>Cabinas de lujo</label><label className='dos'></label></li>
                                 </ul>
                             </div>
@@ -286,9 +286,10 @@ function Enviar (){
                                     <label ref={refVistaUnoVentanaDosSeleccionEscritorio}>{textoSeleccionadoEscritorio}</label>
                                 
                                     <ul  ref={refVistaUnoVentanaDosTextoEscritorio}> 
-                                        <li onClick={()=> seleccionTextoEscritorio('Ultrasonido Focalizado') }><text className=''><strong>Ultrasonido Focalizado: </strong> <label>(Ultraformer III)</label>Papada, ojeras, arrugas, flacidez, grasa localizada. </text></li>
-                                        <li className='negro' onClick={()=> seleccionTextoEscritorio('Tribella')}><text ><strong> Tribella: </strong> <label>(Venus Versa) </label> Acné, poros dilatados, cicatrices, manchas, arrugas, flacidez, colágeno y elastina. </text></li>
-                                        <li onClick={()=> seleccionTextoEscritorio('Luz Pulsada Intensa IPL')}><text><strong> Luz Pulsada Intensa IPL:</strong> <label>(Venus Versa)</label>  Manchas, líneas de expresión, acné, cicatrices, rosácea y dermatitis. </text></li>
+                                        <li onClick={()=> seleccionTextoEscritorio('Toxina botulínica') }><text className=''><strong>Toxina botulínica: </strong> <label></label> Arrugas, Hiperhidrosis, Bruxismo, Bunny Lines, Rejuvenecimiento de Cuello, Sonrisa Gingival</text></li>
+                                        <li className='negro' onClick={()=> seleccionTextoEscritorio('Ácido hialurónico')}><text ><strong> Ácido hialurónico: </strong> <label> </label> Líneas de Expresión, Arrugas, Hidratación, Relleno de labios, Lifting, Rinomodelación, Foxy eyes</text></li>
+                                        <li onClick={()=> seleccionTextoEscritorio('Enzimas')}><text><strong> Enzimas: </strong> <label></label>  Exceso de Sebo, Flexibilidad, Tonificación, Drenaje Linfático, Aumentar la Producción Natural de Colágeno</text></li>
+                                        <li onClick={()=> seleccionTextoEscritorio('Exosomas')}><text><strong> Exosomas: </strong> <label></label>  Luminosidad, Manchas, Arrugas, Irritaciones, Lesiones, Refinamiento de poros, Mejorar Textura</text></li>
                                     </ul>
                                 </text>
                                
@@ -378,9 +379,10 @@ function Enviar (){
                                     <label ref={refVistaUnoVentanaDosSeleccion}>{textoSeleccionado}</label>
                                 
                                     <ul  ref={refVistaUnoVentanaDosTexto}> 
-                                        <li onClick={()=> seleccionTexto('Ultrasonido Focalizado') }><text className=''><strong  className='color'> Ultrasonido Focalizado: </strong> <br/> <label>(Ultraformer III)</label> <br/> Papada, ojeras, arrugas, flacidez, grasa localizada. </text></li>
-                                        <li className='negro' onClick={()=> seleccionTexto('Tribella')}><text ><strong > Tribella:</strong>  <br /> <label> (Venus Versa)  </label><br/>Acné, poros dilatados, cicatrices, manchas, arrugas, flacidez, colágeno y elastina. </text></li>
-                                        <li onClick={()=> seleccionTexto('Luz Pulsada Intensa IPL')}><text><strong  className='color'> Luz Pulsada Intensa IPL: </strong>   <br/> <label>  (Venus Versa) </label> <br/>Manchas, líneas de expresión, acné, cicatrices, rosácea y dermatitis. </text></li>
+                                    <li onClick={()=> seleccionTexto('Toxina botulínica') }><text className=''><strong>Toxina botulínica: </strong> <label></label> Arrugas, Hiperhidrosis, Bruxismo, Bunny Lines, Rejuvenecimiento de Cuello, Sonrisa Gingival</text></li>
+                                        <li className='negro' onClick={()=> seleccionTexto('Ácido hialurónico')}><text ><strong> Ácido hialurónico: </strong> <label> </label> Líneas de Expresión, Arrugas, Hidratación, Relleno de labios, Lifting, Rinomodelación, Foxy eyes</text></li>
+                                        <li onClick={()=> seleccionTexto('Enzimas')}><text><strong> Enzimas: </strong> <label></label>  Exceso de Sebo, Flexibilidad, Tonificación, Drenaje Linfático, Aumentar la Producción Natural de Colágeno</text></li>
+                                        <li onClick={()=> seleccionTexto('Exosomas')}><text><strong> Exosomas: </strong> <label></label>  Luminosidad, Manchas, Arrugas, Irritaciones, Lesiones, Refinamiento de poros, Mejorar Textura</text></li>
                                     </ul>
                                 </text>
                                
