@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="743.563" height="564.211" viewBox="0 0 743.563 564.211">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="1" stop-color="#fff"/>
-    </linearGradient>
-  </defs>
-  <path id="Rectángulo_80" data-name="Rectángulo 80" d="M0,0H564.211a0,0,0,0,1,0,0V715.563a28,28,0,0,1-28,28H28a28,28,0,0,1-28-28V0A0,0,0,0,1,0,0Z" transform="translate(0 564.211) rotate(-90)" opacity="0.108" fill="url(#linear-gradient)"/>
-</svg>
